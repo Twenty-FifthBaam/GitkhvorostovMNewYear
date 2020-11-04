@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    tools:context=".newYearImage">
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@color/red"
+        android:onClick="toMain"
+        android:text="@string/mainPage"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBack">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image0"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:paddingTop="8sp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/i0" />
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:paddingTop="8sp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/i1" />
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:paddingTop="8sp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/i2" />
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:paddingTop="8sp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/i3" />
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:paddingTop="8sp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/i4" />
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:paddingTop="8sp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/i5" />
+
+            <ImageView
+                android:id="@+id/image6"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:paddingTop="8sp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/i6" />
+
+            <ImageView
+                android:id="@+id/image7"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:paddingTop="8sp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/i7" />
+
+            <ImageView
+                android:id="@+id/image8"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:paddingTop="8sp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/i8" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
