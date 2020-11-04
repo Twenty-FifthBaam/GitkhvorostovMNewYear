@@ -54,6 +54,21 @@
                 tools:context=".MainActivity">
 
                 <Button
+                    android:id="@+id/buttonGit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="120dp"
+                    android:background="@android:color/background_dark"
+                    android:onClick="gitPage"
+                    android:text="@string/whatIsPage"
+                    android:textColor="@color/white"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/buttonNewYear"
+                    tools:text="GitHub" />
+
+                <Button
                     android:id="@+id/buttonImages"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"

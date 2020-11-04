@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".whatIsThisPage"></activity>
+        <activity android:name=".GitActivity"></activity>
+        <activity android:name=".whatIsThisPage" />
         <activity android:name=".aboutNewYear" />
         <activity android:name=".newYearImage" />
         <activity android:name=".MainActivity">

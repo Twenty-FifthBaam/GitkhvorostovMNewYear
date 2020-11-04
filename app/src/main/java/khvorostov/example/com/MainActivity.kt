@@ -27,5 +27,9 @@ class MainActivity : AppCompatActivity() {
         val pg = Intent (this, whatIsThisPage::class.java)
         startActivity(pg)
     }
+    fun gitPage(view: View) {
+        val git = Intent (this, GitActivity::class.java)
+        startActivity(git)
+    }
 
 }
